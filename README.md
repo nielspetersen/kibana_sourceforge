@@ -1,11 +1,18 @@
-# Why is this repository for ?
+*Originally imported from https://bitbucket.org/nshou/elasticsearch-kibana/overview*
 
-This repository will be used to supervize your work and provide you
-the help you might need more easily. 
+## Elasticsearch and Kibana in one container
 
-Make sure to use this project to share the current version of the
-project with your colleagues. I would like to have this repository up
-to date all the time. Do not hesistate to use a dedicated branch if
-you need to.
+Simple and lightweight docker image for previewing Elasticsearch and Kibana.
 
-If you need help about git, have a look at https://docs.gitlab.com/ce/gitlab-basics/README.html
+### Usage
+
+*Content will follow soon*
+
+Then you can connect to Elasticsearch by `localhost:9200` and its Kibana front-end by `localhost:5601`.
+
+### Tags
+
+Tag/Branch     | Elasticsearch | Kibana
+------- | ------------- | ------
+master  |  2.4.1        | 4.6.2
+
