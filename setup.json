@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards":4,
+      "number_of_replicas": 1}
+    },
+  "mappings": {
+    "project": {
+      "_all": {"enabled": false },
+      "properties": {
+        "Name": { "type": "text" },
+        "License": { "type": "integer" },
+        "Operating_system" : { "type" : "integer" },
+        "NumberofDevs" : { "type" : "integer" },
+        "Downloads" : { "type" : "integer" },
+        "Webhits" : { "type" : "integer" }
+      }
+    }
+  }
+}
