@@ -8,5 +8,6 @@ VOLUME /var/lib/elasticsearch
 
 ADD ./setup.json /tmp/setup.json
 ADD ./data /data
+ADD ./kibana_export/ /kibana-export
 
 CMD [ "/usr/local/bin/start.sh" ]
