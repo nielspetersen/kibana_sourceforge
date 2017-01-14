@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "Project-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Project Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Number-of-developers-in-all-projects\",\"panelIndex\":3,\"row\":1,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":5,\"id\":\"Number-of-developers-in-projects-with-over-10.000-downloads\",\"panelIndex\":7,\"row\":1,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":9,\"id\":\"The-5-most-used-languages-in-relation\",\"panelIndex\":8,\"row\":1,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Most-used-languages-and-average-downloads\",\"panelIndex\":5,\"row\":5,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"id\":\"Most-used-languages-and-average-webhits\",\"type\":\"visualization\",\"panelIndex\":9,\"size_x\":6,\"size_y\":5,\"col\":7,\"row\":5}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-5\":{\"vis\":{\"legendOpen\":false}},\"P-9\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]
