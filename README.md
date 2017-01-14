@@ -25,12 +25,14 @@ Then you can connect to Elasticsearch by `localhost:9200` and its Kibana front-e
 
 ### Usage
 
-5. Browse http://localhost:5601
+Prior to the following steps make sure to download the git repsository via ```git clone git@gitlab.com:jeremiealbert/2016_EFREI_BigDataForCompanies_06.git``` .
+
+Browse http://localhost:5601: 
 * Uncheck "Index contains time-based events"
 * Replace "logstash-*" by "projects" and click on "Create"
 * Click on "Saved Objects":
-* Click on "Import" and select the file in kibana_export/views.json
-* Click on "Import" and select the file in kibana_export/dashboard.json
+* Click on "Import" and select the file in kibana_export/views.json (within the project directory)
+* Click on "Import" and select the file in kibana_export/dashboard.json (within the project directory)
 
 
 ### Troubleshooting
