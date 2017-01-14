@@ -41,4 +41,3 @@ In case the container could not be started or stops after a few seconds, you sho
 grep vm.max_map_count /etc/sysctl.conf
 ```
 The value has to be at least set to 262144 for production use. (see https://www.elastic.co/guide/en/elasticsearch/reference/5.x/docker.html)
-
