@@ -25,7 +25,7 @@ Then you can connect to Elasticsearch by `localhost:9200` and its Kibana front-e
 
 ### Usage
 
-Prior to the following steps make sure to download the git repsository via ```git clone git@gitlab.com:jeremiealbert/2016_EFREI_BigDataForCompanies_06.git``` .
+Prior to the following steps make sure to download the Git repository via ```git clone git@gitlab.com:jeremiealbert/2016_EFREI_BigDataForCompanies_06.git``` .
 
 Browse http://localhost:5601: 
 * Uncheck "Index contains time-based events"
