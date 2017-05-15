@@ -1,33 +1,23 @@
-*Originally imported from https://bitbucket.org/nshou/elasticsearch-kibana/overview*
+*Base image originally imported from https://bitbucket.org/nshou/elasticsearch-kibana/overview*
 
 ## Elasticsearch and Kibana in one container
 
 Simple and lightweight docker image for previewing Elasticsearch and Kibana.
 
-### Installation / SetUp
+### SetUp / Usage
 
-First of all you have to login to the Docker registry of Gitlab to get access to the image.
-Execute the following command and enter your Gitlab credentials:
-
-```
-docker login registry.gitlab.com
-```
-
-Once you are successfully logged in run:
+Build the image and push it to your (local) registry server. Then you can use:
 
 ```
-docker run -d -p 9200:9200 -p 5601:5601 registry.gitlab.com/jeremiealbert/2016_efrei_bigdataforcompanies_06
+docker run -d -p 9200:9200 -p 5601:5601 <path to the image in the registry>
 ```
 
-to download the image, to build the container (from the image) and start the server.
+to pull and start the container.
 
-Then you can connect to Elasticsearch by `localhost:9200` and its Kibana front-end by `localhost:5601`.
+After the successful start of you docker container, you can connect to Elasticsearch by `localhost:9200` and its Kibana front-end by `localhost:5601`.
 
-### Usage
 
-Prior to the following steps make sure to download the Git repository via ```git clone git@gitlab.com:jeremiealbert/2016_EFREI_BigDataForCompanies_06.git``` .
-
-Browse http://localhost:5601: 
+Browse http://localhost:5601:
 * Uncheck "Index contains time-based events"
 * Replace "logstash-*" by "projects" and click on "Create"
 * Click on "Saved Objects":
